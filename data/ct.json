@@ -1,0 +1,26 @@
+[{ 		"assets" : {
+			"market" : "Chicago Tribune",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/ct/logo.svg",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/device-digital.png",
+			"copy_website" : "chicagotribune.com",
+			"link_activate" : "//myaccount2.chicagotribune.com/dssmatch.aspx",
+			"link_home" : "//www.chicagotribune.com",
+			"link_faq" : "//membership.chicagotribune.com/faq",
+			"link_contact" : "//www.chicagotribune.com/about/chi-newspaperemail-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.chicagotribune.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/ct/benefit-food.jpg",
+			"benefit_text_1" : "Food & Entertainment coverage",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/ct/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to NYDailyNews.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/ct/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/ct/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/ct/benefit-politics.jpg",
+			"benefit_text_5" : "Politics",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/ct/benefit-sports.jpg",
+			"benefit_text_6" : "Sports coverage",
+			"pid" : ""
+		}
+		}
+]

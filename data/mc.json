@@ -1,0 +1,29 @@
+[{ 		"assets" : {
+			"market" : "The Morning Call",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/mc/logo.svg",
+			"logo_width" : "310px",
+			"logo_height" : "34px",
+			"logo_margin" : "5px auto",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/device-digital.png",
+			"copy_website" : "themorningcall.com",
+			"link_activate" : "//myaccount2.mcall.com/dssmatch.aspx",
+			"link_home" : "//www.mcall.com",
+			"link_faq" : "//membership.mcall.com/faq",
+			"link_contact" : "//www.mcall.com/about/mc-staff-listings-ngux-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.mcall.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/mc/benefit-retail.jpg",
+			"benefit_text_1" : "Retail watch",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/mc/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to themorningcall.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/mc/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/mc/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/mc/benefit-local.jpg",
+			"benefit_text_5" : "Local news coverage",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/mc/benefit-sports.jpg",
+			"benefit_text_6" : "High school sports",
+			"pid" : ""
+		}
+		}
+]

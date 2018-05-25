@@ -1,0 +1,29 @@
+[{ 		"assets" : {
+			"market" : "Los Angeles Times",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/la/logo.svg",
+			"logo_width" : "275px",
+			"logo_height" : "34px",
+			"logo_margin" : "5px auto",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/la/device-digital.png",
+			"copy_website" : "latimes.com",
+			"link_activate" : "//myaccount2.latimes.com/dssmatch.aspx",
+			"link_home" : "//www.latimes.com",
+			"link_faq" : "//membership.latimes.com/faq",
+			"link_contact" : "//www.latimes.com/about/la-contact-us-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.latimes.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/la/benefit-politics.jpg",
+			"benefit_text_1" : "Politics",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/la/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to latimes.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/la/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/la/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/la/benefit-food.jpg",
+			"benefit_text_5" : "Food",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/la/benefit-local.jpg",
+			"benefit_text_6" : "Local news coverage",
+			"pid" : ""
+		}
+		}
+]

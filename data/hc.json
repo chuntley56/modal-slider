@@ -1,0 +1,29 @@
+[{ 		"assets" : {
+			"market" : "Hartford Courant",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/hc/logo.svg",
+			"logo_width" : "240px",
+			"logo_height" : "37px",
+			"logo_margin" : "5px auto",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/device-digital.png",
+			"copy_website" : "courant.com",
+			"link_activate" : "//myaccount2.courant.com/dssmatch.aspx",
+			"link_home" : "//www.courant.com",
+			"link_faq" : "//membership.courant.com/faq",
+			"link_contact" : "//www.courant.com/about/hc-contact-us-ngux-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.courant.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/hc/benefit-politics.jpg",
+			"benefit_text_1" : "Politics",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/hc/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to courant.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/hc/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/hc/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/hc/benefit-sports.jpg",
+			"benefit_text_5" : "High school sports",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/hc/benefit-local.jpg",
+			"benefit_text_6" : "Local news coverage",
+			"pid" : ""
+		}
+		}
+]

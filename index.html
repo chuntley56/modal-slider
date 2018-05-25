@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title></title>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jsrender.min.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
+		<style type="text/css">
+			body {
+				background: #000;
+				margin: 0;
+			}
+
+			.reg-dialog.meter-modal {
+				max-width: 800px;
+				margin: 0 auto;
+				position: relative;
+				background: #fff;
+				font-family: Arial, sans-serif;
+			}
+
+			.reg-dialog.meter-modal {
+				width: 100%;
+				max-width: 800px;
+				border-radius: 5px;
+			}
+
+			.reg-dialog.meter-modal .reg-content {
+				position: relative;
+				padding: 20px 0;
+			}
+
+			.reg-dialog.meter-modal .reg-close {
+				font: 14px Arial, sans-serif;
+				background: 0 0;
+				display: block;
+				width: 25px;
+				height: 25px;
+				z-index: 1;
+				top: 10px;
+				position: relative;
+				right: 12px;
+				float: right;
+				cursor: pointer;
+				stroke: #999;
+			}
+
+			.reg-dialog.meter-modal .reg-close:before {
+				content: 'X';
+			}
+
+			.da-account {
+				font: 11px Arial, sans-serif;
+				position: absolute;
+				color: #00457c;
+				left: 20px;
+				top: 10px;
+			}
+
+			.da-account a {
+				text-decoration: none;
+				color: #00457c;
+			}
+
+			.da-login div,
+			.da-account div:first-child,
+			[data-reg-loggedin] .da-login {
+				display: none;
+			}
+
+			.da-login:hover div,
+			[data-reg-loggedin] .da-account div:first-child {
+				display: block;
+			}
+
+			.da-head {
+				text-align: center;
+				font-size: 20px;
+				padding-top: 20px;
+			}
+
+			.da-head img {
+				display: block;
+				margin: 10px auto;
+			}
+
+			.da-body {
+				background: url('http://tribpubads.com/modal-bau-carousel/img/uda.svg') no-repeat;
+				background-position: left 12px;
+				margin: 20px 50px 40px;
+				text-align: right;
+			}
+
+			.da-body img {
+				border: none;
+				outline: none;
+			}
+
+			.da-slide {
+				background-color: #f7f7f7;
+				position: relative;
+				overflow: hidden;
+				height: 235px;
+			}
+
+			.da-slide div {
+				text-align: center;
+				color: #00457c;
+				font-size: 15px;
+				padding: 15px;
+			}
+
+			.da-slide a {
+				background-color: #f7f7f7;
+				position: absolute;
+				display: block;
+				height: 180px;
+				width: 75px;
+				z-index: 1;
+			}
+
+			.da-slide a:before {
+				content: '';
+				box-sizing: border-box;
+				border: solid #7c7c7c;
+				border-width: 10px 0 0;
+				display: inline-block;
+				margin-top: 50px;
+				height: 30px;
+				width: 30px;
+			}
+
+			.da-slide a:hover:before {
+				border-color: #00457c;
+			}
+
+			.da-prev {
+				left: 0;
+			}
+
+			.da-prev:before {
+				-webkit-transform: rotate(-45deg);
+				border-left-width: 10px !important;
+				transform: rotate(-45deg);
+				margin-left: 35px;
+			}
+
+			.da-next {
+				right: 0;
+			}
+
+			.da-next:before {
+				-webkit-transform: rotate(45deg);
+				border-right-width: 10px !important;
+				transform: rotate(45deg);
+				margin-left: 10px;
+			}
+
+			.da-slide ul {
+				width: 910px;
+				position: relative;
+				transform: translateX(-50%);
+				padding: 0;
+				margin: 0;
+				left: 50%;
+			}
+
+			.da-slide li {
+				text-align: center;
+				list-style: none;
+				width: 130px;
+				float: left;
+				font-size: 14px;
+			}
+
+			.da-slide img {
+				margin: 15px auto 5px;
+				border-radius: 65px;
+				display: block;
+				height: 100px;
+				width: 100px;
+			}
+
+			.da-slide span {
+				visibility: hidden;
+			}
+
+			.da-slide ul.next {
+				transform: translateX(-64.3%);
+				transition: transform 0.2s ease;
+			}
+
+			.da-slide ul.prev {
+				transform: translateX(-35.7%);
+				transition: transform 0.2s ease;
+			}
+
+			.da-slide li.show img {
+				margin-top: 0;
+				height: 130px;
+				width: 130px;
+			}
+
+			.da-slide li.show span {
+				visibility: visible;
+			}
+
+			@media screen and (max-width: 799px) {
+				.da-login div {
+					display: block !important;
+				}
+				.da-head {
+					font-size: 16px;
+				}
+				.da-head img {
+					margin: 35px auto 15px;
+				}
+				.da-body {
+					background-image: url('http://tribpubads.com/modal-bau-carousel/img/uda-mobile.svg');
+					background-position: center top;
+					background-size: contain;
+					margin: 5px auto 20px;
+					text-align: center;
+					padding-top: 65px;
+					max-width: 350px;
+					width: 90%;
+				}
+				.da-slide a {
+					width: 40px;
+				}
+				.da-slide a:before {
+					border-top-width: 7px;
+					margin-top: 55px;
+					height: 20px;
+					width: 20px;
+				}
+				.da-prev:before {
+					border-left-width: 7px !important;
+					margin-left: 15px;
+				}
+				.da-next:before {
+					border-right-width: 7px !important;
+					margin-left: 5px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/x-jsrender" id="mainTemplate">
+			<div class="reg-dialog meter-modal">
+				<div class="reg-navbar"><svg xmlns="http://www.w3.org/2000/svg" class="reg-close" viewBox="0 0 35 35"><path d="M.78.78l33.64 33.64m0-33.64L.78 34.42"></path></svg></div>
+				<div class="da-account">
+					<div><span data-reg-text></span> &nbsp;|&nbsp; <a data-reg-handler="logoutin" href="#">Log out</a></div>
+					<div class="da-login">
+						Already a subscriber?
+						<div><a data-reg-handler="signInHandler" href="#">Log in</a> &nbsp;|&nbsp; <a href="${printMatchUrl}" data-met-return="modal">Activate digital access</a></div>
+					</div>
+				</div>
+				<div class="da-head">
+					<img alt="Logo" src="{{:assets.logo}}" style="width:{{:assets.logo_width}}; height:{{:assets.logo_height}};"> You've reached your monthly free article limit.
+				</div>
+				<div class="da-body">
+					<a href="{{:assets.pid}}" data-met-return><img alt="Subscribe" src="http://tribpubads.com/modal-bau-carousel/img/button.svg"></a>
+				</div>
+				<div class="da-slide">
+					<div>BENEFITS</div><a href="#" class="da-prev"></a><a href="#" class="da-next"></a>
+					<ul>
+						<li><img src="{{:assets.benefit_img_1}}"><span>{{:assets.benefit_text_1}}</span></li>
+						<li><img src="{{:assets.benefit_img_2}}"><span>{{:assets.benefit_text_2}}</span></li>
+						<li><img src="{{:assets.benefit_img_3}}"><span>{{:assets.benefit_text_3}}</span></li>
+						<li class="show"><img src="{{:assets.benefit_img_4}}"><span>{{:assets.benefit_text_4}}</span></li>
+						<li><img src="{{:assets.benefit_img_5}}"><span>{{:assets.benefit_text_5}}</span></li>
+						<li><img src="{{:assets.benefit_img_6}}"><span>{{:assets.benefit_text_6}}</span></li>
+					</ul>
+				</div>
+			</div>
+			<script>
+				! function(e) {
+					/* e(".meter-modal [data-reg-text]").attr("data-reg-text", registration.user.getEmailAddress()), */
+					e(".da-slide a").click(function(t) {
+						var a = e(this).is(".da-prev"),
+							n = e(".da-slide ul").addClass(a ? "prev" : "next");
+						t.preventDefault(), setTimeout(function() {
+							n[a ? "prepend" : "append"](n.children(":" + (a ? "last" : "first") + "-child")).removeClass(a ? "prev" : "next"), n.children(".show").removeClass("show")[a ? "prev" : "next"]("li").addClass("show")
+						}, 200)
+					}), e(".da-slide ul").on("mousedown touchstart", function(t) {
+						var a = t.originalEvent.touches,
+							n = (a ? a[0] : t).pageX;
+						t.preventDefault(), e(document).one("mouseup touchend", function(t) {
+							var r = (a ? t.originalEvent.changedTouches[0] : t).pageX;
+							n != r && e(".da-" + (n < r ? "prev" : "next")).click()
+						})
+					})
+				}(jQuery);
+			</script>
+		</script>
+		<div id="mainContainer" class="mainContainer">
+		</div>
+	</body>
+
+</html>

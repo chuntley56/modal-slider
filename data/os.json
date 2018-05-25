@@ -1,0 +1,29 @@
+[{ 		"assets" : {
+			"market" : "Orlando Sentinel",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/os/logo.svg",
+			"logo_width" : "230px",
+			"logo_height" : "41px",
+			"logo_margin" : "0 auto 10px",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/device-digital.png",
+			"copy_website" : "OrlandoSentinel.com",
+			"link_activate" : "//myaccount2.orlandosentinel.com/dssmatch.aspx",
+			"link_home" : "//www.orlandosentinel.com",
+			"link_faq" : "//membership.orlandosentinel.com/faq",
+			"link_contact" : "//www.orlandosentinel.com/about/os-contact-us-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.orlandosentinel.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/os/benefit-opinion.jpg",
+			"benefit_text_1" : "Opinions and commentary",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/os/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to OrlandoSentinel.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/os/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/os/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/os/benefit-local.jpg",
+			"benefit_text_5" : "Local news coverage",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/os/benefit-sports.jpg",
+			"benefit_text_6" : "Central Florida sports coverage",
+			"pid" : ""
+		}
+		}
+]

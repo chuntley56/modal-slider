@@ -1,0 +1,28 @@
+[{ 		"assets" : {
+			"market" : "New York Daily News",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/ny/logo.svg",
+			"logo_width" : "270px",
+			"logo_height" : "23px",
+			"logo_margin" : "5px auto 10px",
+			"copy_website" : "nydailynews.com",
+			"link_activate" : "https://myaccount2.nydailynews.com/dssmatch.aspx",
+			"link_home" : "//www.nydailynews.com",
+			"link_faq" : "http://www.nydailynews.com/services/faqs",
+			"link_contact" : "http://www.nydailynews.com/services/contact-us",
+			"link_dssmatch" : "https://myaccount2.baltimoresun.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/ny/benefit-ent.jpg",
+			"benefit_text_1" : "Entertainment",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/ny/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to NYDailyNews.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/ny/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/ny/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/ny/benefit-sports.jpg",
+			"benefit_text_5" : "Sports news and analysis",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/ny/benefit-ny.jpg",
+			"benefit_text_6" : "New York news",
+			"pid" : ""
+		}
+		}
+]

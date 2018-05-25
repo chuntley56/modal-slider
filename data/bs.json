@@ -1,0 +1,29 @@
+[{ 		"assets" : {
+			"market" : "The Baltimore Sun",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/bs/logo.svg",
+			"logo_width" : "280px",
+			"logo_height" : "26px",
+			"logo_margin" : "10px auto",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/device-digital.png",
+			"copy_website" : "baltimoresun.com",
+			"link_activate" : "//myaccount2.baltimoresun.com/dssmatch.aspx",
+			"link_home" : "//www.baltimoresun.com",
+			"link_faq" : "//membership.baltimoresun.com/faq",
+			"link_contact" : "//www.baltimoresun.com/bal-customer-service-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.baltimoresun.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/bs/benefit-politics.jpg",
+			"benefit_text_1" : "Politics",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/bs/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to baltimoresun.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/bs/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/bs/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/bs/benefit-sports.jpg",
+			"benefit_text_5" : "Sports news and analysis",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/bs/benefit-food.jpg",
+			"benefit_text_6" : "Entertainment & dining",
+			"pid" : ""
+		}
+		}
+]

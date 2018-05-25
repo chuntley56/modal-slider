@@ -1,0 +1,29 @@
+[{ 		"assets" : {
+			"market" : "Sun Sentinel",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/ss/logo.svg",
+			"logo_width" : "270px",
+			"logo_height" : "68px",
+			"logo_margin" : "0 auto",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/device-digital.png",
+			"copy_website" : "SunSentinel.com",
+			"link_activate" : "//myaccount2.sun-sentinel.com/dssmatch.aspx",
+				"link_home" : "//www.sun-sentinel.com",
+				"link_faq" : "//membership.sun-sentinel.com/faq",
+				"link_contact" : "//www.sun-sentinel.com/sfl-contact-us-20140917-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.sun-sentinel.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/ss/benefit-opinion.jpg",
+			"benefit_text_1" : "Opinions and commentary",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/ss/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to SunSentinel.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/ss/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/ss/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/ss/benefit-local.jpg",
+			"benefit_text_5" : "Local news coverage",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/ss/benefit-sports.jpg",
+			"benefit_text_6" : "Sports news and analysis",
+			"pid" : ""
+		}
+		}
+]

@@ -1,0 +1,29 @@
+[{ 		"assets" : {
+			"market" : "The San Diego Union-Tribune",
+			"logo" : "http://tribpubads.com/modal-bau-carousel/img/sd/logo.svg",
+			"logo_width" : "330px",
+			"logo_height" : "32px",
+			"logo_margin" : "5px auto",
+			"img_device" : "http://tribpubads.com/modal-bau-carousel/img/device-digital.png",
+			"copy_website" : "sandiegouniontribune.com",
+			"link_activate" : "//myaccount2.sandiegouniontribune.com/dssmatch.aspx",
+			"link_home" : "//www.sandiegouniontribune.com",
+			"link_faq" : "//www.sandiegouniontribune.com/tcasd-faq-20160901-htmlstory.html",
+			"link_contact" : "//www.sandiegouniontribune.com/sd-help-customer-contact-delivery-subscribe-htmlstory.html",
+			"link_dssmatch" : "https://myaccount2.sandiegouniontribune.com/Dssmatch.aspx",
+			"benefit_img_1" : "http://tribpubads.com/modal-bau-carousel/img/sd/benefit-rewards.jpg",
+			"benefit_text_1" : "Union-Tribune Rewards",
+			"benefit_img_2" : "http://tribpubads.com/modal-bau-carousel/img/sd/benefit-uda.jpg",
+			"benefit_text_2" : "Complete access to sduniontribune.com",
+			"benefit_img_3" : "http://tribpubads.com/modal-bau-carousel/img/sd/benefit-app.jpg",
+			"benefit_text_3" : "Our app including breaking news alerts",
+			"benefit_img_4" : "http://tribpubads.com/modal-bau-carousel/img/sd/benefit-enews.jpg",
+			"benefit_text_4" : "eNewspaper emailed daily",
+			"benefit_img_5" : "http://tribpubads.com/modal-bau-carousel/img/sd/benefit-sports.jpg",
+			"benefit_text_5" : "Sports news and analysis",
+			"benefit_img_6" : "http://tribpubads.com/modal-bau-carousel/img/sd/benefit-politics.jpg",
+			"benefit_text_6" : "Local politics",
+			"pid" : ""
+		}
+		}
+]
